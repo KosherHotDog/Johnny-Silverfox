@@ -1,0 +1,5 @@
+# Built archives and zips are published as release assets, not committed
+*.archive
+*.zip
+original/
+updated/
