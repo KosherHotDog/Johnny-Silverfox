@@ -36,4 +36,8 @@ The original archive was built before patch 2.0 and could cause crashes on curre
 
 2. **Updated 8 broken references** from the old BioExotics layout (`base\characters\exoticsco\...`) to BioExotics Expanded (`bioexotics_expanded\...`). This includes the eye material `eyes03.mi`, which no longer existed at its old path.
 
-The fox meshes and textures are unchanged. Their appearances, material slots and rig match the 2.5 vanilla meshes. See [CHANGELOG.md](CHANGELOG.md) for the full path mapping.
+3. **Fixed Johnny's head disappearing** in the mirror cutscene. The fox face used a fade-only shader for its normal look.
+
+4. **Fixed eyes, teeth, body and arm decals staying visible** when Johnny fades or glitches out.
+
+The fox meshes and textures are unchanged. Their appearances, material slots and rig match the 2.5 vanilla meshes. See [CHANGELOG.md](CHANGELOG.md) for full details.
